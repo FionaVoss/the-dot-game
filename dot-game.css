@@ -1,0 +1,37 @@
+td {
+  margin: 0;
+  padding: 0;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.vertical-line {
+  height: 100px;
+  width: 10px;
+  border-radius: 5px;
+}
+
+.horizontal-line {
+  height: 10px;
+  width: 100px;
+  border-radius: 5px;
+}
+
+.unclicked-line:hover {
+  background-color: lightgray;
+}
+
+.clicked-line {
+  background-color: gray;
+}
+
+.square {
+  height: 100px;
+  width: 100px;
+  background-color: white;
+}
